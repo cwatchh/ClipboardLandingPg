@@ -2,31 +2,41 @@
 body{
   color:#1b2936;                   <! -- Dark Grayish Blue -->
   color:  hsl(210, 10%, 33%);
-  font-family: "Bai Jamjuree";
+  font-family: "Bai Jamjuree" , sans-serif;
   font-size: 18px;
   font-weight: 400;
   text-align: center;
+  margin:0;
 }
 
 h1{
     font-weight: 400;
+    width:50%;
+    padding-left: 25%;
 }
 
 h2{
     font-weight: 600;
+    width:50%;
+    padding-left: 25%;
 }
 
 h3{
-  padding-bottom: 10px;
+  padding-bottom: 10px ;
+  width:50%;
+  padding-left: 25%;
 }
 
 h4{
-  margin-left: 20%;
+  margin-left: 25%;
+  width:50%;
 }
 
 p{
     font-style: normal;
-    margin: auto 20% auto  20%;
+    margin: auto 25% auto  25%;
+    width:50%;
+    /*padding-left: 20%;    */
 }
 
 .buttons{
@@ -107,8 +117,9 @@ p{
 
 .computer-pic{
   float:left;
-  width:50%;
+  width:600px;                  /*ver1 width:50%;*/
   padding-right: 60px;
+  padding-bottom:50px;   /*ver1 not there */
 }
 
 .storage-sub{
@@ -141,12 +152,14 @@ p{
     position:absolute;
     width:33%;
     left:33%;
+    /*left:380px;*/
 }
 
 .icon-preview{
     position:absolute;
     width:33%;
     left: 66%;
+    /*left:760px;*/
 }
 
 
@@ -160,9 +173,8 @@ p{
 }
 .link-images{
       width:10%;
-      padding:0 4% 20px 4%;
+      padding:20px 4% 20px 4%;
 }
-
 
 .availability{
    padding-top: 330px;
@@ -180,27 +192,33 @@ p{
     text-align: left;
 }
 
+.footer-logo{
+  position:absolute;
+  width:80px;
+  left:5% ;
+}
+
 .footer1{
     position:absolute;
     width:20%;
-    left:10% ;    /* 30%;*/
+    left:20% ;
 }
 
 .footer2{
     position:absolute;
     width:20%;
-    left:30%;      /*50%;*/
+    left:40%;
 }
 
 .footer3{
     position:absolute;
     width:20%;
-    left:50%;
+    left:60%;
 }
 
 .footer4{
     position:absolute;
-    width:25%;
+    width:20%;
     left:80%;
 }
 
